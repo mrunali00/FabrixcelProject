@@ -1,0 +1,141 @@
+2024-11-18 12:13:21,371 DEBUG cd frappe-bench && python3 -m venv env
+2024-11-18 12:13:26,955 DEBUG cd frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-11-18 12:13:31,352 DEBUG cd frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet wheel
+2024-11-18 12:13:32,726 LOG Getting frappe
+2024-11-18 12:13:32,727 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-11-18 12:14:00,784 LOG Installing frappe
+2024-11-18 12:14:00,785 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-bench/apps/frappe 
+2024-11-18 12:14:50,982 DEBUG cd /home/frappe/frappe-bench/apps/frappe && yarn install --check-files
+2024-11-18 12:15:11,514 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-11-18 12:15:11,515 DEBUG cd frappe-bench && bench build
+2024-11-18 12:15:11,691 INFO /home/frappe/.local/bin/bench build
+2024-11-18 12:15:43,937 LOG setting up backups
+2024-11-18 12:15:44,026 LOG backups were set up
+2024-11-18 12:15:44,028 INFO Bench frappe-bench initialized
+2024-11-18 12:16:39,199 INFO /home/frappe/.local/bin/bench set-config -g db_host mariadb
+2024-11-18 12:16:53,586 INFO /home/frappe/.local/bin/bench set-config -g redis_cache redis://redis-cache:6379
+2024-11-18 12:16:59,822 INFO /home/frappe/.local/bin/bench set-config -g redis_queue redis://redis-queue:6379
+2024-11-18 12:17:06,794 INFO /home/frappe/.local/bin/bench set-config -g redis_socketio redis://redis-queue:6379
+2024-11-18 12:18:22,805 INFO /home/frappe/.local/bin/bench new-site --no-mariadb-socket fabrixcel.localhost
+2024-11-18 12:19:03,445 INFO /home/frappe/.local/bin/bench new-site --no-mariadb-socket fabrixcel.localhost
+2024-11-18 12:19:20,134 INFO /home/frappe/.local/bin/bench new-site --no-mariadb-socket fabrixcel.localhost
+2024-11-20 05:59:28,541 INFO /home/frappe/.local/bin/bench start
+2024-11-20 05:59:29,116 INFO /home/frappe/.local/bin/bench schedule
+2024-11-20 05:59:29,123 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-11-20 05:59:29,129 INFO /home/frappe/.local/bin/bench watch
+2024-11-20 05:59:29,138 INFO /home/frappe/.local/bin/bench worker
+2024-11-20 06:02:55,242 INFO /home/frappe/.local/bin/bench apps
+2024-11-20 06:03:33,163 INFO /home/frappe/.local/bin/bench new-app contractor_app
+2024-11-20 06:03:33,179 LOG creating new app contractor_app
+2024-11-20 06:04:24,337 LOG Installing contractor_app
+2024-11-20 06:04:24,339 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-bench/apps/contractor_app 
+2024-11-20 06:04:27,867 DEBUG bench build --app contractor_app
+2024-11-20 06:04:28,087 INFO /home/frappe/.local/bin/bench build --app contractor_app
+2024-11-20 06:04:31,215 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-11-20 06:18:11,516 INFO /home/frappe/.local/bin/bench start
+2024-11-20 06:18:12,050 INFO /home/frappe/.local/bin/bench schedule
+2024-11-20 06:18:12,076 INFO /home/frappe/.local/bin/bench worker
+2024-11-20 06:18:12,136 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-11-20 06:18:12,249 INFO /home/frappe/.local/bin/bench watch
+2024-11-20 06:22:05,679 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost set-config developer_mode 1
+2024-11-20 06:22:43,749 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost migrate
+2024-11-20 06:30:24,305 INFO /home/frappe/.local/bin/bench start
+2024-11-20 06:30:24,923 INFO /home/frappe/.local/bin/bench watch
+2024-11-20 06:30:24,955 INFO /home/frappe/.local/bin/bench worker
+2024-11-20 06:30:24,976 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-11-20 06:30:25,086 INFO /home/frappe/.local/bin/bench schedule
+2024-11-20 06:36:58,031 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost migrate
+2024-11-20 06:37:57,531 INFO /home/frappe/.local/bin/bench start
+2024-11-20 06:37:58,710 INFO /home/frappe/.local/bin/bench schedule
+2024-11-20 06:37:58,767 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-11-20 06:37:58,925 INFO /home/frappe/.local/bin/bench worker
+2024-11-20 06:37:59,104 INFO /home/frappe/.local/bin/bench watch
+2024-11-20 06:42:19,229 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost migrate
+2024-11-20 06:44:42,096 INFO /home/frappe/.local/bin/bench start
+2024-11-20 06:44:42,596 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-11-20 06:44:42,614 INFO /home/frappe/.local/bin/bench watch
+2024-11-20 06:44:42,638 INFO /home/frappe/.local/bin/bench schedule
+2024-11-20 06:44:42,776 INFO /home/frappe/.local/bin/bench worker
+2024-11-20 06:54:44,580 INFO /home/frappe/.local/bin/bench --site frabrixcel.localhost list-apps
+2024-11-20 06:55:10,031 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost list-apps
+2024-11-20 06:57:23,607 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost install-app contractor_app
+2024-11-20 06:59:08,254 INFO /home/frappe/.local/bin/bench --site frabrixcel.localhost install-app contractor_app
+2024-11-20 07:00:17,612 INFO /home/frappe/.local/bin/bench --site list
+2024-11-20 07:00:41,834 INFO /home/frappe/.local/bin/bench --site list
+2024-11-20 07:02:10,256 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost install-app contractor_app
+2024-11-20 07:03:17,192 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost list-apps
+2024-11-20 07:03:21,703 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost install-app contractor_app --force
+2024-11-20 07:09:18,944 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost migrate
+2024-11-20 07:17:43,389 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost uninstall-app contractor_app
+2024-11-20 07:18:03,379 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost uninstall-app contractor_app
+2024-11-20 07:18:18,429 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost uninstall-app contractor_app
+2024-11-20 07:18:31,236 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost uninstall-app contractor_app
+2024-11-20 07:19:58,879 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost migrate
+2024-11-20 07:21:03,173 INFO /home/frappe/.local/bin/bench start
+2024-11-20 07:21:03,890 INFO /home/frappe/.local/bin/bench schedule
+2024-11-20 07:21:03,916 INFO /home/frappe/.local/bin/bench watch
+2024-11-20 07:21:03,923 INFO /home/frappe/.local/bin/bench worker
+2024-11-20 07:21:04,014 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-11-20 07:27:00,260 INFO /home/frappe/.local/bin/bench new-app contractor_app
+2024-11-20 07:27:00,283 LOG creating new app contractor_app
+2024-11-20 07:27:22,452 WARNING /home/frappe/.local/bin/bench new-app contractor_app executed with exit code 1
+2024-11-20 07:27:53,280 INFO /home/frappe/.local/bin/bench start
+2024-11-20 07:27:53,804 INFO /home/frappe/.local/bin/bench schedule
+2024-11-20 07:27:53,818 INFO /home/frappe/.local/bin/bench worker
+2024-11-20 07:27:53,859 INFO /home/frappe/.local/bin/bench watch
+2024-11-20 07:27:53,864 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-11-20 07:28:04,103 INFO /home/frappe/.local/bin/bench new-app contractor_app
+2024-11-20 07:28:04,112 LOG creating new app contractor_app
+2024-11-20 07:28:36,838 WARNING /home/frappe/.local/bin/bench new-app contractor_app executed with exit code 1
+2024-11-20 07:28:39,503 INFO /home/frappe/.local/bin/bench new-app contractor_app
+2024-11-20 07:28:39,517 LOG creating new app contractor_app
+2024-11-20 07:29:44,741 WARNING /home/frappe/.local/bin/bench new-app contractor_app executed with exit code 1
+2024-11-20 07:29:47,454 INFO /home/frappe/.local/bin/bench new-app contractor_app
+2024-11-20 07:29:47,465 LOG creating new app contractor_app
+2024-11-20 07:30:38,490 LOG Installing contractor_app
+2024-11-20 07:30:38,493 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-bench/apps/contractor_app 
+2024-11-20 07:30:42,701 DEBUG bench build --app contractor_app
+2024-11-20 07:30:43,001 INFO /home/frappe/.local/bin/bench build --app contractor_app
+2024-11-20 07:30:46,015 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-11-20 07:30:49,920 INFO /home/frappe/.local/bin/bench new-site fabrixcel.localhost
+2024-11-20 07:32:02,923 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost install-app contractor_app
+2024-11-20 07:33:06,666 INFO /home/frappe/.local/bin/bench new-app contractor_app
+2024-11-20 07:33:06,674 LOG creating new app contractor_app
+2024-11-20 07:33:56,279 LOG Installing contractor_app
+2024-11-20 07:33:56,281 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-bench/apps/contractor_app 
+2024-11-20 07:33:59,482 DEBUG bench build --app contractor_app
+2024-11-20 07:33:59,706 INFO /home/frappe/.local/bin/bench build --app contractor_app
+2024-11-20 07:34:02,515 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-11-20 07:34:10,417 INFO /home/frappe/.local/bin/bench new-site fabrixcel.localhost
+2024-11-20 07:34:18,302 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost install-app contractor_app
+2024-11-20 07:34:37,049 INFO /home/frappe/.local/bin/bench start
+2024-11-20 07:34:37,710 INFO /home/frappe/.local/bin/bench watch
+2024-11-20 07:34:37,723 INFO /home/frappe/.local/bin/bench worker
+2024-11-20 07:34:37,792 INFO /home/frappe/.local/bin/bench schedule
+2024-11-20 07:34:37,986 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-11-20 07:40:18,982 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost migrate
+2024-11-20 07:40:57,292 INFO /home/frappe/.local/bin/bench start
+2024-11-20 07:40:57,804 INFO /home/frappe/.local/bin/bench schedule
+2024-11-20 07:40:57,822 INFO /home/frappe/.local/bin/bench watch
+2024-11-20 07:40:57,983 INFO /home/frappe/.local/bin/bench worker
+2024-11-20 07:40:58,077 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-11-20 07:41:00,768 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost migrate
+2024-11-20 07:41:44,013 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost migrate
+2024-11-20 07:43:10,574 INFO /home/frappe/.local/bin/bench --site fabrixcel.loaclhost set-config developer_mode1
+2024-11-20 07:43:39,755 INFO /home/frappe/.local/bin/bench --site fabrixcel.loaclhost set-config developer_mode 1
+2024-11-20 07:44:03,353 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost set-config developer_mode 1
+2024-11-20 07:44:08,991 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost migrate
+2024-11-20 07:48:12,535 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost migrate
+2024-11-20 08:00:28,959 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost migrate
+2024-11-20 08:04:34,441 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost migrate
+2024-11-20 08:04:53,662 INFO /home/frappe/.local/bin/bench start
+2024-11-20 08:04:54,391 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-11-20 08:04:54,650 INFO /home/frappe/.local/bin/bench schedule
+2024-11-20 08:04:54,812 INFO /home/frappe/.local/bin/bench worker
+2024-11-20 08:04:54,974 INFO /home/frappe/.local/bin/bench watch
+2024-11-20 08:04:58,408 INFO /home/frappe/.local/bin/bench --site fabrixcel.localhost migrate
+2024-11-20 08:23:11,163 INFO /home/frappe/.local/bin/bench start
+2024-11-20 08:23:12,125 INFO /home/frappe/.local/bin/bench watch
+2024-11-20 08:23:12,153 INFO /home/frappe/.local/bin/bench schedule
+2024-11-20 08:23:12,203 INFO /home/frappe/.local/bin/bench worker
+2024-11-20 08:23:12,232 INFO /home/frappe/.local/bin/bench serve --port 8000
