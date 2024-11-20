@@ -3114,3 +3114,7 @@ index creation(creation))
 			COLLATE=utf8mb4_unicode_ci
 2024-11-20 08:05:00,251 WARNING database DDL Query made to DB:
 alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-20 09:45:15,630 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-20 10:07:21,433 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `fabric_total_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` varchar(140) DEFAULT '0', MODIFY `total_weight` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` varchar(140) DEFAULT '0', MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `paintblasting_total_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0

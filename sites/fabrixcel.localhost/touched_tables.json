@@ -1,8 +1,10 @@
 [
-    "tabSingles",
-    "tabInstalled",
     "tabNavbar Item",
-    "tabInstalled Application",
+    "tabRoute History",
+    "tabInstalled",
+    "tabSingles",
     "tabVersion",
+    "tabInstalled Application",
+    "tabRoute",
     "tabNavbar"
 ]
