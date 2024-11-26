@@ -1,0 +1,395 @@
+2024-11-22 05:25:48,034 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quntity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 05:25:55,769 WARNING database DDL Query made to DB:
+alter table `tabChild Customer Contract Person` add column if not exists parent varchar(140)
+2024-11-22 05:25:55,770 WARNING database DDL Query made to DB:
+alter table `tabChild Customer Contract Person` add column if not exists parenttype varchar(140)
+2024-11-22 05:25:55,773 WARNING database DDL Query made to DB:
+alter table `tabChild Customer Contract Person` add column if not exists parentfield varchar(140)
+2024-11-22 05:26:05,377 WARNING database DDL Query made to DB:
+alter table `tabChild Project Received` add column if not exists parent varchar(140)
+2024-11-22 05:26:05,381 WARNING database DDL Query made to DB:
+alter table `tabChild Project Received` add column if not exists parenttype varchar(140)
+2024-11-22 05:26:05,383 WARNING database DDL Query made to DB:
+alter table `tabChild Project Received` add column if not exists parentfield varchar(140)
+2024-11-22 05:26:05,524 WARNING database DDL Query made to DB:
+ALTER TABLE `tabChild Project Received` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 05:26:14,845 WARNING database DDL Query made to DB:
+alter table `tabChild Customer Address` add column if not exists parent varchar(140)
+2024-11-22 05:26:14,846 WARNING database DDL Query made to DB:
+alter table `tabChild Customer Address` add column if not exists parenttype varchar(140)
+2024-11-22 05:26:14,848 WARNING database DDL Query made to DB:
+alter table `tabChild Customer Address` add column if not exists parentfield varchar(140)
+2024-11-22 05:26:15,042 WARNING database DDL Query made to DB:
+ALTER TABLE `tabChild Customer Address` MODIFY `pincode` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 05:26:31,335 WARNING database DDL Query made to DB:
+alter table `tabChild Daily Attendance Report` add column if not exists parent varchar(140)
+2024-11-22 05:26:31,337 WARNING database DDL Query made to DB:
+alter table `tabChild Daily Attendance Report` add column if not exists parenttype varchar(140)
+2024-11-22 05:26:31,338 WARNING database DDL Query made to DB:
+alter table `tabChild Daily Attendance Report` add column if not exists parentfield varchar(140)
+2024-11-22 05:26:44,762 WARNING database DDL Query made to DB:
+alter table `tabChild Contractor Project` add column if not exists parent varchar(140)
+2024-11-22 05:26:44,763 WARNING database DDL Query made to DB:
+alter table `tabChild Contractor Project` add column if not exists parenttype varchar(140)
+2024-11-22 05:26:44,764 WARNING database DDL Query made to DB:
+alter table `tabChild Contractor Project` add column if not exists parentfield varchar(140)
+2024-11-22 05:26:44,897 WARNING database DDL Query made to DB:
+ALTER TABLE `tabChild Contractor Project` MODIFY `weight` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 05:38:48,135 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quntity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 05:53:36,069 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-22 05:53:40,410 WARNING database DDL Query made to DB:
+ALTER TABLE `tabChild Contractor Project` MODIFY `weight` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 05:53:40,678 WARNING database DDL Query made to DB:
+ALTER TABLE `tabChild Project Drowing` MODIFY `drawing_weight` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `drawing_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `nos__quantity_dwg` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 05:53:41,099 WARNING database DDL Query made to DB:
+ALTER TABLE `tabChild Customer Address` MODIFY `pincode` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 05:53:41,279 WARNING database DDL Query made to DB:
+ALTER TABLE `tabChild Project Received` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 05:53:42,338 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quntity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 05:55:30,421 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_quntity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 05:55:30,867 WARNING database DDL Query made to DB:
+RENAME TABLE `tabChild Project Drowing` TO `tabChild Project Drawing`
+2024-11-22 05:56:12,030 WARNING database DDL Query made to DB:
+alter table `tabChild Project Drawing` add column if not exists parent varchar(140)
+2024-11-22 05:56:12,035 WARNING database DDL Query made to DB:
+alter table `tabChild Project Drawing` add column if not exists parenttype varchar(140)
+2024-11-22 05:56:12,039 WARNING database DDL Query made to DB:
+alter table `tabChild Project Drawing` add column if not exists parentfield varchar(140)
+2024-11-22 05:57:59,311 WARNING database DDL Query made to DB:
+alter table `tabChild Project Drawing` add column if not exists parent varchar(140)
+2024-11-22 05:57:59,312 WARNING database DDL Query made to DB:
+alter table `tabChild Project Drawing` add column if not exists parenttype varchar(140)
+2024-11-22 05:57:59,313 WARNING database DDL Query made to DB:
+alter table `tabChild Project Drawing` add column if not exists parentfield varchar(140)
+2024-11-22 05:57:59,480 WARNING database DDL Query made to DB:
+ALTER TABLE `tabChild Project Drawing` MODIFY `drawing_weight` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `nos__quantity_dwg` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `drawing_no` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 05:59:01,256 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` ADD COLUMN `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 05:59:01,269 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 05:59:32,215 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 06:05:52,265 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 06:06:11,251 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 06:12:17,182 WARNING database DDL Query made to DB:
+alter table `tabChild Project Received` add column if not exists parent varchar(140)
+2024-11-22 06:12:17,183 WARNING database DDL Query made to DB:
+alter table `tabChild Project Received` add column if not exists parenttype varchar(140)
+2024-11-22 06:12:17,183 WARNING database DDL Query made to DB:
+alter table `tabChild Project Received` add column if not exists parentfield varchar(140)
+2024-11-22 06:12:17,367 WARNING database DDL Query made to DB:
+ALTER TABLE `tabChild Project Received` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 06:25:00,152 WARNING database DDL Query made to DB:
+create table `tabchild project contractor` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-11-22 06:25:31,204 WARNING database DDL Query made to DB:
+ALTER TABLE `tabchild project contractor` ADD COLUMN `name1` varchar(140), ADD COLUMN `type` varchar(140)
+2024-11-22 06:25:59,131 WARNING database DDL Query made to DB:
+alter table `tabchild project contractor` add column if not exists parent varchar(140)
+2024-11-22 06:25:59,147 WARNING database DDL Query made to DB:
+alter table `tabchild project contractor` add column if not exists parenttype varchar(140)
+2024-11-22 06:25:59,164 WARNING database DDL Query made to DB:
+alter table `tabchild project contractor` add column if not exists parentfield varchar(140)
+2024-11-22 06:28:38,369 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 06:29:28,033 WARNING database DDL Query made to DB:
+alter table `tabchild project contractor` add column if not exists parent varchar(140)
+2024-11-22 06:29:28,034 WARNING database DDL Query made to DB:
+alter table `tabchild project contractor` add column if not exists parenttype varchar(140)
+2024-11-22 06:29:28,035 WARNING database DDL Query made to DB:
+alter table `tabchild project contractor` add column if not exists parentfield varchar(140)
+2024-11-22 06:31:25,664 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 06:35:56,499 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 06:38:54,946 WARNING database DDL Query made to DB:
+alter table `tabchild Project Contact` add column if not exists parent varchar(140)
+2024-11-22 06:38:54,947 WARNING database DDL Query made to DB:
+alter table `tabchild Project Contact` add column if not exists parenttype varchar(140)
+2024-11-22 06:38:54,949 WARNING database DDL Query made to DB:
+alter table `tabchild Project Contact` add column if not exists parentfield varchar(140)
+2024-11-22 06:38:55,084 WARNING database DDL Query made to DB:
+ALTER TABLE `tabchild Project Contact` ADD COLUMN `project_contact__customer_contact_name` varchar(140)
+2024-11-22 07:27:45,632 WARNING database DDL Query made to DB:
+alter table `tabchild Project Contact` add column if not exists parent varchar(140)
+2024-11-22 07:27:45,637 WARNING database DDL Query made to DB:
+alter table `tabchild Project Contact` add column if not exists parenttype varchar(140)
+2024-11-22 07:27:45,641 WARNING database DDL Query made to DB:
+alter table `tabchild Project Contact` add column if not exists parentfield varchar(140)
+2024-11-22 07:27:45,909 WARNING database DDL Query made to DB:
+ALTER TABLE `tabchild Project Contact` ADD COLUMN `customer_name` varchar(140)
+2024-11-22 07:30:06,574 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 07:30:06,899 WARNING database DDL Query made to DB:
+RENAME TABLE `tabChild Project Drawing` TO `tabProject Drawing table`
+2024-11-22 07:30:50,102 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 07:30:50,571 WARNING database DDL Query made to DB:
+RENAME TABLE `tabchild Project Contact` TO `tabProject Contact table`
+2024-11-22 07:32:30,391 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 07:32:30,685 WARNING database DDL Query made to DB:
+RENAME TABLE `tabchild project contractor` TO `tabProject  all Contractor Table`
+2024-11-22 08:09:28,760 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 08:09:29,892 WARNING database DDL Query made to DB:
+RENAME TABLE `tabProject  all Contractor Table` TO `tabContractor Fabric Type Table`
+2024-11-22 08:09:55,988 WARNING database DDL Query made to DB:
+create table `tabContractor  Paint Type Table` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-11-22 08:10:45,099 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContractor  Paint Type Table` ADD COLUMN `name1` varchar(140), ADD COLUMN `weight` varchar(140)
+2024-11-22 08:11:27,932 WARNING database DDL Query made to DB:
+create table `tabContractor Labor  Type Table` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-11-22 08:11:48,681 WARNING database DDL Query made to DB:
+alter table `tabContractor Labor  Type Table` add column if not exists parent varchar(140)
+2024-11-22 08:11:48,695 WARNING database DDL Query made to DB:
+alter table `tabContractor Labor  Type Table` add column if not exists parenttype varchar(140)
+2024-11-22 08:11:48,697 WARNING database DDL Query made to DB:
+alter table `tabContractor Labor  Type Table` add column if not exists parentfield varchar(140)
+2024-11-22 08:11:48,827 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContractor Labor  Type Table` ADD COLUMN `name1` varchar(140), ADD COLUMN `weight` varchar(140)
+2024-11-22 08:12:33,993 WARNING database DDL Query made to DB:
+alter table `tabContractor  Paint Type Table` add column if not exists parent varchar(140)
+2024-11-22 08:12:34,011 WARNING database DDL Query made to DB:
+alter table `tabContractor  Paint Type Table` add column if not exists parenttype varchar(140)
+2024-11-22 08:12:34,027 WARNING database DDL Query made to DB:
+alter table `tabContractor  Paint Type Table` add column if not exists parentfield varchar(140)
+2024-11-22 08:13:21,969 WARNING database DDL Query made to DB:
+alter table `tabContractor Labor  Type Table` add column if not exists parent varchar(140)
+2024-11-22 08:13:21,971 WARNING database DDL Query made to DB:
+alter table `tabContractor Labor  Type Table` add column if not exists parenttype varchar(140)
+2024-11-22 08:13:21,972 WARNING database DDL Query made to DB:
+alter table `tabContractor Labor  Type Table` add column if not exists parentfield varchar(140)
+2024-11-22 08:13:55,016 WARNING database DDL Query made to DB:
+alter table `tabContractor  Paint Type Table` add column if not exists parent varchar(140)
+2024-11-22 08:13:55,017 WARNING database DDL Query made to DB:
+alter table `tabContractor  Paint Type Table` add column if not exists parenttype varchar(140)
+2024-11-22 08:13:55,018 WARNING database DDL Query made to DB:
+alter table `tabContractor  Paint Type Table` add column if not exists parentfield varchar(140)
+2024-11-22 08:17:07,636 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 08:17:25,349 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parent varchar(140)
+2024-11-22 08:17:25,351 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parenttype varchar(140)
+2024-11-22 08:17:25,353 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parentfield varchar(140)
+2024-11-22 08:17:25,537 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContractor Fabric Type Table` ADD COLUMN `weight` varchar(140)
+2024-11-22 08:17:55,841 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 10:42:48,591 WARNING database DDL Query made to DB:
+alter table `tabContractor Labor  Type Table` add column if not exists parent varchar(140)
+2024-11-22 10:42:48,594 WARNING database DDL Query made to DB:
+alter table `tabContractor Labor  Type Table` add column if not exists parenttype varchar(140)
+2024-11-22 10:42:48,595 WARNING database DDL Query made to DB:
+alter table `tabContractor Labor  Type Table` add column if not exists parentfield varchar(140)
+2024-11-22 10:43:37,884 WARNING database DDL Query made to DB:
+alter table `tabContractor  Paint Type Table` add column if not exists parent varchar(140)
+2024-11-22 10:43:37,885 WARNING database DDL Query made to DB:
+alter table `tabContractor  Paint Type Table` add column if not exists parenttype varchar(140)
+2024-11-22 10:43:37,888 WARNING database DDL Query made to DB:
+alter table `tabContractor  Paint Type Table` add column if not exists parentfield varchar(140)
+2024-11-22 10:46:29,176 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-22 10:46:32,557 WARNING database DDL Query made to DB:
+ALTER TABLE `tabChild Project Received` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 10:46:32,953 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 10:46:33,378 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject Drawing table` MODIFY `rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `drawing_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `nos__quantity_dwg` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `drawing_weight` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-22 10:50:33,093 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-22 10:52:06,735 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parent varchar(140)
+2024-11-22 10:52:06,738 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parenttype varchar(140)
+2024-11-22 10:52:06,741 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parentfield varchar(140)
+2024-11-22 10:52:40,374 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parent varchar(140)
+2024-11-22 10:52:40,376 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parenttype varchar(140)
+2024-11-22 10:52:40,380 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parentfield varchar(140)
+2024-11-23 06:02:54,708 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 06:20:51,130 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 06:20:54,610 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 06:46:52,069 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 07:01:18,787 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 07:29:14,337 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 07:38:17,115 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parent varchar(140)
+2024-11-23 07:38:17,117 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parenttype varchar(140)
+2024-11-23 07:38:17,119 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parentfield varchar(140)
+2024-11-23 07:43:48,407 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 07:47:37,825 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 08:06:37,218 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 08:06:40,580 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 08:07:38,204 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 09:55:30,476 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parent varchar(140)
+2024-11-23 09:55:30,484 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parenttype varchar(140)
+2024-11-23 09:55:30,485 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parentfield varchar(140)
+2024-11-23 09:56:13,884 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 09:57:53,091 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parent varchar(140)
+2024-11-23 09:57:53,092 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parenttype varchar(140)
+2024-11-23 09:57:53,093 WARNING database DDL Query made to DB:
+alter table `tabContractor Fabric Type Table` add column if not exists parentfield varchar(140)
+2024-11-23 09:57:53,297 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContractor Fabric Type Table` ADD COLUMN `contractor_name` varchar(140)
+2024-11-23 10:00:50,622 WARNING database DDL Query made to DB:
+alter table `tabContractor  Paint Type Table` add column if not exists parent varchar(140)
+2024-11-23 10:00:50,624 WARNING database DDL Query made to DB:
+alter table `tabContractor  Paint Type Table` add column if not exists parenttype varchar(140)
+2024-11-23 10:00:50,625 WARNING database DDL Query made to DB:
+alter table `tabContractor  Paint Type Table` add column if not exists parentfield varchar(140)
+2024-11-23 10:00:50,737 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContractor  Paint Type Table` ADD COLUMN `contractor_name` varchar(140)
+2024-11-23 10:01:02,175 WARNING database DDL Query made to DB:
+alter table `tabContractor Labor  Type Table` add column if not exists parent varchar(140)
+2024-11-23 10:01:02,180 WARNING database DDL Query made to DB:
+alter table `tabContractor Labor  Type Table` add column if not exists parenttype varchar(140)
+2024-11-23 10:01:02,182 WARNING database DDL Query made to DB:
+alter table `tabContractor Labor  Type Table` add column if not exists parentfield varchar(140)
+2024-11-23 10:01:02,401 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContractor Labor  Type Table` ADD COLUMN `contractor_name` varchar(140)
+2024-11-23 10:01:12,169 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 10:07:36,201 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 10:07:36,524 WARNING database DDL Query made to DB:
+RENAME TABLE `tabContractor Labor  Type Table` TO `tabContractor Labor Type Table`
+2024-11-23 10:08:04,731 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 10:14:55,920 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 10:14:59,144 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 10:17:32,466 WARNING database DDL Query made to DB:
+alter table `tabProject Drawing table` add column if not exists parent varchar(140)
+2024-11-23 10:17:32,468 WARNING database DDL Query made to DB:
+alter table `tabProject Drawing table` add column if not exists parenttype varchar(140)
+2024-11-23 10:17:32,473 WARNING database DDL Query made to DB:
+alter table `tabProject Drawing table` add column if not exists parentfield varchar(140)
+2024-11-23 10:17:32,648 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject Drawing table` MODIFY `total` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `nos__quantity_dwg` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `drawing_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `drawing_weight` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 10:19:04,303 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 10:46:30,105 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 10:46:33,015 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 10:46:33,293 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject Drawing table` MODIFY `total` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `nos__quantity_dwg` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `drawing_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `drawing_weight` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `rate` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 10:56:28,015 WARNING database DDL Query made to DB:
+alter table `tabProject Contact table` add column if not exists parent varchar(140)
+2024-11-23 10:56:28,017 WARNING database DDL Query made to DB:
+alter table `tabProject Contact table` add column if not exists parenttype varchar(140)
+2024-11-23 10:56:28,018 WARNING database DDL Query made to DB:
+alter table `tabProject Contact table` add column if not exists parentfield varchar(140)
+2024-11-23 10:57:50,003 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 11:08:32,886 WARNING database DDL Query made to DB:
+alter table `tabProject Contact table` add column if not exists parent varchar(140)
+2024-11-23 11:08:32,888 WARNING database DDL Query made to DB:
+alter table `tabProject Contact table` add column if not exists parenttype varchar(140)
+2024-11-23 11:08:32,891 WARNING database DDL Query made to DB:
+alter table `tabProject Contact table` add column if not exists parentfield varchar(140)
+2024-11-23 11:09:56,364 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 11:17:19,732 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 11:17:20,091 WARNING database DDL Query made to DB:
+RENAME TABLE `tabProject Contact table` TO `tabProject Contact table or Contact Person`
+2024-11-23 11:18:00,964 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 11:18:03,943 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 11:19:08,111 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 11:26:34,342 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 11:26:38,407 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `po_quantity` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_sum` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `metric_tons_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `karod_value` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `po_no` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-11-23 12:15:57,755 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-11-23 12:43:38,574 WARNING database DDL Query made to DB:
+alter table `tabProject Drawing table` add column if not exists parent varchar(140)
+2024-11-23 12:43:38,576 WARNING database DDL Query made to DB:
+alter table `tabProject Drawing table` add column if not exists parenttype varchar(140)
+2024-11-23 12:43:38,577 WARNING database DDL Query made to DB:
+alter table `tabProject Drawing table` add column if not exists parentfield varchar(140)
+2024-11-23 12:43:38,759 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject Drawing table` MODIFY `drawing_no` varchar(140), MODIFY `rate` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `nos__quantity_dwg` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `drawing_weight` decimal(21,9) NOT NULL DEFAULT 0.0

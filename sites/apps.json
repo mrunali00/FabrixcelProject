@@ -27,5 +27,15 @@
         "required": [],
         "idx": 3,
         "version": "16.0.0-dev"
+    },
+    "new_fabrixcel": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "c6b6826717d208ca2d6c06d20e239c9638d081cf",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "0.0.1"
     }
 }

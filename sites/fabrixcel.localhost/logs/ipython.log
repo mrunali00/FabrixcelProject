@@ -1,0 +1,5 @@
+2024-11-21 10:15:39,111 INFO ipython === bench console session ===
+2024-11-21 10:15:39,111 INFO ipython SELECT * FROM `tabContact Person` WHERE name1 = 'g5jdia5jqu';
+2024-11-21 10:15:39,112 INFO ipython contact_person = frappe.db.sql("""SELECT * FROM `tabContact Person` WHERE name1 = 'g5jdia5jqu'""", as_dict=True)
+print(contact_person)
+2024-11-21 10:15:39,112 INFO ipython === session end ===
